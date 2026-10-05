@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 粉色渐变底：顶部圆角与卡片一致 -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners
+                android:topLeftRadius="16dp"
+                android:topRightRadius="16dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" />
+            <gradient
+                android:angle="0"
+                android:startColor="#FFC2D0"
+                android:endColor="#F28CA8" />
+        </shape>
+    </item>
+    <!-- 装饰光圈：右上大圆 -->
+    <item
+        android:top="-40dp"
+        android:right="52dp">
+        <shape android:shape="oval">
+            <solid android:color="#29FFFFFF" />
+            <size
+                android:width="80dp"
+                android:height="80dp" />
+        </shape>
+    </item>
+    <!-- 装饰光圈：右下小圆 -->
+    <item
+        android:bottom="-18dp"
+        android:right="24dp">
+        <shape android:shape="oval">
+            <solid android:color="#29FFFFFF" />
+            <size
+                android:width="40dp"
+                android:height="40dp" />
+        </shape>
+    </item>
+</layer-list>

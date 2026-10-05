@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+build/
+/app/build/
+captures/
+.cxx/
+.kotlin/
+.artifacts/
+*.apk
+*.bak
+.zcodeignore

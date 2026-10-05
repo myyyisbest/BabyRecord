@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">宝宝成长记</string>
+    <string name="widget_desc">一键打开喂奶、换尿布、睡眠、辅食记录</string>
+    <string name="stats_widget_desc">宝宝的今日概览：喂奶、奶量、尿布、睡眠</string>
+</resources>
