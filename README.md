@@ -56,3 +56,7 @@ app/src/main/java/com/babyrecord/app/
     ├── more/           更多（家庭同步设置等）
     └── theme/          暖色 Material 3 主题
 ```
+
+## 许可
+
+[MIT](LICENSE)
